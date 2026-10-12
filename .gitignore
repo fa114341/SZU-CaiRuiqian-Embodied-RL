@@ -1,0 +1,21 @@
+# Never stage credentials or private archives.
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+*credential*
+*secret*
+*token*
+T800_CONTEXT.md
+CLAUDE.md
+input/
+private/
+staging/
+*.ckpt
+*.pth
+*.safetensors
+__pycache__/
+.pytest_cache/
+*.log
